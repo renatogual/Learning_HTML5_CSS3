@@ -3,15 +3,17 @@
     <head>
         <meta charset="UTF-8">
         <title>Meu Primeiro Site</title>
+        <link rel="stylesheet" type="text/css" href="CSS/style.css">
     </head>
     
     <body>
         <nav>
             <h1>Fotos de carros</h1>
             <ul>
-                <li>Corvete</li>
-                <li>Camaro</li>
-                <li>Ferrari</li>
+                <!-- a hashtag na referencia indica o id informado na section-->
+                <li><a href="#Corvete">Corvete</a></li> 
+                <li><a href="#Camaro">Camaro</a></li>
+                <li><a href="#Ferrari">Ferrari</a></li>
             </ul>
         </nav>
         
@@ -21,18 +23,43 @@
 
         <section id="Corvete">
             <h2>CORVETE</h2>
-            <img src="img/Corvete.jpg" width="600px">
+            <div>
+                <!--Essa ref abre o link na mesma pagina-->
+                <a href="https://viabella.com.br/carros/seminovos/corvette-z06"> 
+                    <img src="img/Corvete1.jpg" class="img_padrao">
+                </a>
+            </div>
+            <div>
+                <img src="img/Corvete2.jpg" class="img_padrao">
+            </div>
         </section>
+
         <section id="Camaro">
             <h2>CAMARO</h2>
-            <img src="img/Camaro.jpg" width="600px">
+            <div>
+                <!--Essa ref com o target=_blank abre o link em outra aba-->
+                <a href="https://quatrorodas.abril.com.br/noticias/novo-camaro-zl1-atinge-318-kmh-em-teste-de-velocidade-maxima/" target=_blank>
+                    <img src="img/Camaro1.jpg" class="img_padrao"> 
+                </a>
+            </div>
+            <div>
+                <img src="img/Camaro2.jpg" class="img_padrao">
+            </div>
         </section>
+
         <section id="Ferrari">
             <h2>FERRARI</h2>
-            <img src="img/Ferrari.jpg" width="600px">
+            <div>
+                <img src="img/Ferrari1.jpg" class="img_padrao">
+            </div>
+            <div>
+                <img src="img/Ferrari2.jpg" class="img_padrao">
+            </div>
         </section>
 
         <footer>
+            <p><a href="mailto:renatogual@hotmail.com">renatogual@hotmail.com</a></p>
+            <p><a href="tel:9999999999">(31)98265-6895</a></p>
             <p>Desenvolvido por Renato Gualberto</p>
         </footer>
     </body>

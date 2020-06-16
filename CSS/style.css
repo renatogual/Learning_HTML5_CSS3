@@ -1,0 +1,22 @@
+
+body {
+    background: rgb(96, 104, 95);
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-family: fantasy;
+}
+
+h2 {
+    color: rgb(153, 18, 18);
+    font-family: fantasy;
+    
+}
+
+/* iniciar com o ponto (.) referencia a classe */
+.img_padrao {
+    width: 300px;
+}
