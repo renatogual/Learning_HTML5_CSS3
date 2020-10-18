@@ -177,3 +177,9 @@ img[alt='instagram-logo'] {
 }
 
 
+@media (max-width: 650px) {
+    .phone {
+        display: none;
+    }
+}
+
